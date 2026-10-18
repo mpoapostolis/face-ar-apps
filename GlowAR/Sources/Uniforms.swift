@@ -1,0 +1,31 @@
+import simd
+
+/// Layout must match `CompositeUniforms` in Shaders.metal (all float4).
+struct CompositeUniforms {
+    var dt0 = SIMD4<Float>(repeating: 0)
+    var dt1 = SIMD4<Float>(repeating: 0)
+    var lip = SIMD4<Float>(repeating: 0)
+    var shadow = SIMD4<Float>(repeating: 0)
+    var blush = SIMD4<Float>(repeating: 0)
+    var liner = SIMD4<Float>(repeating: 0)
+    var params0 = SIMD4<Float>(repeating: 0)
+    var params1 = SIMD4<Float>(repeating: 0)
+    var params2 = SIMD4<Float>(repeating: 0)
+    var params3 = SIMD4<Float>(0, 0, 1, 0)
+    var lipS0 = SIMD4<Float>(repeating: 0)
+    var lipS1 = SIMD4<Float>(repeating: 0)
+    var lipS2 = SIMD4<Float>(repeating: 0)
+    var det = SIMD4<Float>(repeating: 0)
+    var ref = SIMD4<Float>(repeating: 0)
+    var browBox = SIMD4<Float>(repeating: 0)
+    var browA = SIMD4<Float>(repeating: 0)
+    var browN0 = SIMD4<Float>(repeating: 0)
+    var browN1 = SIMD4<Float>(repeating: 0)
+    var browN2 = SIMD4<Float>(repeating: 0)
+    var brow = SIMD4<Float>(repeating: 0)
+    var browB = SIMD4<Float>(repeating: 0)
+    var skinFx = SIMD4<Float>(repeating: 0)
+    var view = SIMD4<Float>(5000, -1, 0, 0)
+    var face = SIMD4<Float>(repeating: 0)
+    var tone = SIMD4<Float>(repeating: 0)
+}

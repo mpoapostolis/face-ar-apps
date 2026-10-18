@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E961C2F8239C3A1FB9DE66F /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF4A288A2AEFBC2F68455B /* Shaders.metal */; };
+		58760B42ACD15D44B2B15E4E /* FaceGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCFE7A9140C12F5CB3C90F4 /* FaceGeometry.swift */; };
+		74AAC6607C015BF07AC8430D /* MakeupRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781C1DE714895BF8A46F2E4D /* MakeupRenderer.swift */; };
+		77786D862B7B1C8C83DB4758 /* FaceRegions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618E7694578B85861DC573A5 /* FaceRegions.swift */; };
+		8C906BCDB78E69F560A9380B /* GlowARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3723D9F6B28507A1A79769CC /* GlowARApp.swift */; };
+		92FE4B140AD27E3458F88B88 /* Uniforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3D5E6D283DFC2639D41600 /* Uniforms.swift */; };
+		B3FFB00C6F7D9BDB1EDAF6EF /* LandmarkCalibrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417A8D4AB6A3B108D8520522 /* LandmarkCalibrator.swift */; };
+		CEB02A84BB26B3C77A9CC4BA /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7CB4BD25DA90D08ABE43D2 /* Palette.swift */; };
+		D0DFBAD7C5376B01EE251082 /* SkinAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA90FFCB45B9CFB65052373 /* SkinAnalysis.swift */; };
+		D60D4477AEEABCCC64FAB7FD /* LipCalibrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18853AB94CBAFCBDEEA4510A /* LipCalibrator.swift */; };
+		F395BCB8D0EC2E158BBD3AA7 /* Advisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F503E014D95F3E56D1EC1F /* Advisor.swift */; };
+		FC0ABD0FE143C6D962F432F8 /* MakeupSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172919BCD2B3C56553B7535A /* MakeupSettings.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172919BCD2B3C56553B7535A /* MakeupSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupSettings.swift; sourceTree = "<group>"; };
+		18853AB94CBAFCBDEEA4510A /* LipCalibrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LipCalibrator.swift; sourceTree = "<group>"; };
+		1F7CB4BD25DA90D08ABE43D2 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		2AEF4A288A2AEFBC2F68455B /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		3723D9F6B28507A1A79769CC /* GlowARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowARApp.swift; sourceTree = "<group>"; };
+		417A8D4AB6A3B108D8520522 /* LandmarkCalibrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCalibrator.swift; sourceTree = "<group>"; };
+		5A3D5E6D283DFC2639D41600 /* Uniforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uniforms.swift; sourceTree = "<group>"; };
+		618E7694578B85861DC573A5 /* FaceRegions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRegions.swift; sourceTree = "<group>"; };
+		781C1DE714895BF8A46F2E4D /* MakeupRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeupRenderer.swift; sourceTree = "<group>"; };
+		A3F503E014D95F3E56D1EC1F /* Advisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advisor.swift; sourceTree = "<group>"; };
+		DDA90FFCB45B9CFB65052373 /* SkinAnalysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinAnalysis.swift; sourceTree = "<group>"; };
+		EEB8E46FA69A73917241DAF5 /* GlowAR.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = GlowAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCFE7A9140C12F5CB3C90F4 /* FaceGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceGeometry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		10F517463C2EEC39989107AF = {
+			isa = PBXGroup;
+			children = (
+				404009A85F56B71DF7347F6D /* Sources */,
+				B7A1E5AE398123855492AE7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		404009A85F56B71DF7347F6D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A3F503E014D95F3E56D1EC1F /* Advisor.swift */,
+				FBCFE7A9140C12F5CB3C90F4 /* FaceGeometry.swift */,
+				618E7694578B85861DC573A5 /* FaceRegions.swift */,
+				3723D9F6B28507A1A79769CC /* GlowARApp.swift */,
+				417A8D4AB6A3B108D8520522 /* LandmarkCalibrator.swift */,
+				18853AB94CBAFCBDEEA4510A /* LipCalibrator.swift */,
+				781C1DE714895BF8A46F2E4D /* MakeupRenderer.swift */,
+				172919BCD2B3C56553B7535A /* MakeupSettings.swift */,
+				1F7CB4BD25DA90D08ABE43D2 /* Palette.swift */,
+				2AEF4A288A2AEFBC2F68455B /* Shaders.metal */,
+				DDA90FFCB45B9CFB65052373 /* SkinAnalysis.swift */,
+				5A3D5E6D283DFC2639D41600 /* Uniforms.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B7A1E5AE398123855492AE7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB8E46FA69A73917241DAF5 /* GlowAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144872F3FC2C5A6A62D044D5 /* GlowAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBBB47108E2748830C3BA26F /* Build configuration list for PBXNativeTarget "GlowAR" */;
+			buildPhases = (
+				9FD23A288741C4875AA62141 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlowAR;
+			packageProductDependencies = (
+			);
+			productName = GlowAR;
+			productReference = EEB8E46FA69A73917241DAF5 /* GlowAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		350FA053A9DCDE13D49C6680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					144872F3FC2C5A6A62D044D5 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FC3F11B7A4DD13D410ED813 /* Build configuration list for PBXProject "GlowAR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 10F517463C2EEC39989107AF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B7A1E5AE398123855492AE7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144872F3FC2C5A6A62D044D5 /* GlowAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FD23A288741C4875AA62141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F395BCB8D0EC2E158BBD3AA7 /* Advisor.swift in Sources */,
+				58760B42ACD15D44B2B15E4E /* FaceGeometry.swift in Sources */,
+				77786D862B7B1C8C83DB4758 /* FaceRegions.swift in Sources */,
+				8C906BCDB78E69F560A9380B /* GlowARApp.swift in Sources */,
+				B3FFB00C6F7D9BDB1EDAF6EF /* LandmarkCalibrator.swift in Sources */,
+				D60D4477AEEABCCC64FAB7FD /* LipCalibrator.swift in Sources */,
+				74AAC6607C015BF07AC8430D /* MakeupRenderer.swift in Sources */,
+				FC0ABD0FE143C6D962F432F8 /* MakeupSettings.swift in Sources */,
+				CEB02A84BB26B3C77A9CC4BA /* Palette.swift in Sources */,
+				4E961C2F8239C3A1FB9DE66F /* Shaders.metal in Sources */,
+				D0DFBAD7C5376B01EE251082 /* SkinAnalysis.swift in Sources */,
+				92FE4B140AD27E3458F88B88 /* Uniforms.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3613EE88A57FBF94CF07E3CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Glow AR";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Η κάμερα χρειάζεται για να δοκιμάζεις μακιγιάζ σε πραγματικό χρόνο.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Για να αποθηκεύονται οι φωτογραφίες σου με το μακιγιάζ.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.glowar.makeup.x7k2;
+				PRODUCT_NAME = GlowAR;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5D7C6CCB24030B88DC850DD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D4CF8966C73E6F8DF83D93F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Glow AR";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Η κάμερα χρειάζεται για να δοκιμάζεις μακιγιάζ σε πραγματικό χρόνο.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Για να αποθηκεύονται οι φωτογραφίες σου με το μακιγιάζ.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.glowar.makeup.x7k2;
+				PRODUCT_NAME = GlowAR;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9FF3F90A445BB62DEA0F628B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FC3F11B7A4DD13D410ED813 /* Build configuration list for PBXProject "GlowAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7C6CCB24030B88DC850DD4 /* Debug */,
+				9FF3F90A445BB62DEA0F628B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DBBB47108E2748830C3BA26F /* Build configuration list for PBXNativeTarget "GlowAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3613EE88A57FBF94CF07E3CE /* Debug */,
+				9D4CF8966C73E6F8DF83D93F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 350FA053A9DCDE13D49C6680 /* Project object */;
+}
